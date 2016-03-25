@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+  background-image: url('../assets/img_background@2x.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-color: #2d2756;
+}
+
+.app {
+  width: 500px;
+  margin: 20px auto 20px auto;
+  text-align: left;
+}
+
+.app .title {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.app .login .email {
+  border-radius: 10px 10px 0 0;
+}
+
+.app .login .password {
+  border-top: 1px solid #ccc;
+  border-radius: 0 0 10px 10px;
+}
+
+.app .login input {
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  border: 0px;
+}
+
+.app .login button {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #a18dff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.app .message {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.app .message .author {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.app .logout {
+  height: 30px;
+  cursor: pointer;
+}
+
+img.post-message-icon {
+  position: fixed;
+  z-index: 2;
+  top: 90%;
+  height: 10%;
+  cursor: pointer;
+}
+
+.shadowbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.post-message {
+  position: fixed;
+  top: 100px;
+  width: 500px;
+  z-index: 999;
+}
+
+.post-message textarea {
+  border: 0;
+  border-radius: 10px;
+  width: 100%;
+  height: 350px;
+  padding: 20px;
+}
+
+.post-message button {
+  width: 100%;
+  text-align: center;
+  background-color: #a18dff;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
